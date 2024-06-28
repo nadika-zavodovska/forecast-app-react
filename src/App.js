@@ -7,8 +7,8 @@ export default function App() {
     <div className="App">
       <div className="container">
       <h1>Weather App</h1>
-      <h5>For Ukrainians</h5>
-      <Weather />
+      
+      <Weather defaultCity="New York" />
       <footer>
         This project was coded by&nbsp;
         <a href="https://nadika.name/index.html" target="_blank">Nadika</a> and is <a href="https://github.com/nadika-zavodovska/forecast-app-react" target="_blank"> open-sourced on GitHub</a>
