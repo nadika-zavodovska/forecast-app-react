@@ -9,7 +9,6 @@
 
 .Weather h1 {
     color: #878787;
-    color: regb(135, 135, 135);
     display: block;
     font-size: 24px;
     margin: 20px 0 0 0;
@@ -30,13 +29,11 @@
 }
 
 .Weather canvas {
-
     display: inline-block;
     margin-right: 10px;
 }
 
 .Weather .temperature {
-    font-weight: bold;
     color: rgb(33, 33, 33);
     font-size: 64px;
     line-height: 64px;
@@ -49,9 +46,6 @@
     top: -32px;
     margin-left: 5px;
     line-height: 1;
-
     font-size: 16px;
     font-weight: 400;
-
-
 }
