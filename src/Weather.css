@@ -1,17 +1,17 @@
 .Weather {
-    border: 1px solid #dadde1;
-    font-family: arial, sans-serif;
     padding: 16px;
     margin: 30px auto;
     border-radius: 4px;
+    border: 1px solid #dadde1;
+    font-family: arial, sans-serif;  
     color: rgb(135, 135, 135);
 }
 
 .Weather h1 {
-    color: #878787;
     display: block;
-    font-size: 24px;
     margin: 20px 0 0 0;
+    color: #878787;    
+    font-size: 24px;    
     font-weight: 100;
     line-height: 29px;
 }
@@ -41,10 +41,10 @@
 }
 
 .Weather .unit {
-    color: rgb(32, 33, 36);
     position: relative;
     top: -32px;
     margin-left: 5px;
+    color: rgb(32, 33, 36);    
     line-height: 1;
     font-size: 16px;
     font-weight: 400;
